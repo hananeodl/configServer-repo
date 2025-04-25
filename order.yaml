@@ -13,6 +13,8 @@ spring:
       connection-timeout: 30000
       maximum-pool-size: 10
       minimum-idle: 5
+  config:
+    import: optional:configserver:http://config-server:8888
   jpa:
     hibernate:
       ddl-auto: update
