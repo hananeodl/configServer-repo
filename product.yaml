@@ -7,7 +7,7 @@ spring:
   datasource:
     username: root
     url: jdbc:mysql://mysql:3306/microservice?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-    password: ""
+    password: root123
    config:
     import: optional:configserver:http://config-server:8888
   jpa:
