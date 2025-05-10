@@ -33,6 +33,10 @@ spring:
       client:
         url: http://admin-server:9090
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka
 
 management:
   endpoints:
