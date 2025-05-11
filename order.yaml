@@ -5,7 +5,7 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://mysql:3307/microservice?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    url: jdbc:mysql://mysql:3306/microservice?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
     password: root123
     driver-class-name: com.mysql.cj.jdbc.Driver
